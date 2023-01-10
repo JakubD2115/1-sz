@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 	<html lang="pl-PL">
 		<html>
 			<head>
@@ -10,67 +10,117 @@
 </head>
 <body>
 <A HREF="index.html">Wróć </A>
-<body bgcolor="#87CEFA">
-<center><h1> Formularz o.................zaproponowany przez nauczyciela</h1></center>
+<body bgcolor="#ccffbb">
+<center><h1> Formularz o komputerze </h1></center>
 <form enctype="text/plain" action="jakubduszynski44@gmail.com" subject="formularz_dane" method="Post">
 <TABLE>
-<TR height="100">
-<TD width="500">
-<b>Imię</b> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
-&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp<input name="imie" size="22">
+<TR>
+<TD widyh="500">
+  <tr>   
+<b>Imię i Nazwisko</b>  &nbsp &nbsp &nbsp
+&nbsp &nbsp &nbsp  &nbsp<input name="imie" size="22">
+<br><br></tr>
+<TR>
+<TD><nobr>Jakiej marki karte graficzną posiadasz?</nobr>
 <br><br>
-<b>Drugie imię</b>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
-&nbsp &nbsp &nbsp &nbsp <input name="drugie" size="22">
+<input type="radio" name="pyt1" value="tak"> Nvidia
 <br><br>
-<b>Nazwisko </b> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <input name="nazwisko" size="22">
-<br><br>
-<b>Pseudonim artystyczny</b>&nbsp &nbsp<input name="login" size="22"><nobr> <br>
+<input type="radio" name="pyt1" value="nie"> AMD
+<br>
 </TD>
-<TD width="300" >
-<center><font size="5" color="red"><b>Podaj środek lokomacji dojazdu do pracy</b></font></center><br>
-<center> <select>
-<option value="autobus">Autobus</option>
-<option value="motocykl">Motocykl</option>
-<option value="prom">Prom</option>
-<option value="samolot">Samolot</option>
-<option value="lodz">Łódź podwodna</option>
-<option value="kajak">Kajak</option>
-</select> </center>
+   <TD>
+ <nobr>Ile posiadasz dysków SSD?</nobr>
+    <br>
+    <select>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="więcej">więcej</option>
+    </select> </TD>
+</tr>
+
+
+<br><TR>
+<TD><nobr>Jakiej firmy procesor posiadasz?</nobr>
+<br><br>
+<input type="radio" name="pyt2" value="tak"> Intel
+<br><br>
+<input type="radio" name="pyt2" value="nie"> AMD
+<br><br>
 </TD>
-<TD width="500">Jaka jest Twoja ulubione ciastko?
+
+ 
+<TD><nobr>Ile miejsca na dysku  posiadasz?</nobr>
+    <br><br>
+    <input type="radio" name="pyt3" value="tak"> mniej
+    <br><br>
+    <input type="radio" name="pyt3" value="nie"> 256    
+    <br><br>
+    <input type="radio" name="pyt3" value="nie"> 512
+    <br><br>
+    <input type="radio" name="pyt3" value="nie"> 1TB
+    <br><br>
+    <input type="radio" name="pyt3" value="nie"> więcej
+    <br><br>
+    </TD></TR>
+
+<TR>
+<TD><nobr>Ile kosci pamięci RAM posiadasz?</nobr>
 <br><br>
-<input type="checkbox" name="ciastko" value="k"> BEZA
+<input type="radio" name="pyt3" value="tak"> 1
 <br><br>
-<input type="checkbox" name="ciastko" value="m"> SERNIK
+<input type="radio" name="pyt3" value="nie"> 2
 <br><br>
-<input type="checkbox" name="ciastko" value="inna"> INNE
-<br><br><br>
-<nobr>Jeśli zaznaczyłeś INNE to podaj swoje ciastko<br>wpisz ciastko poniżej. Maks: 100<br>znaków</nobr>
+<input type="radio" name="pyt3" value="nie"> 3
 <br><br>
+<input type="radio" name="pyt3" value="nie"> 4
+<br><br>
+<input type="radio" name="pyt3" value="nie"> więcej
+<br><br>
+</TD><TD>
+    <nobr>Jak oceniasz wygląd swojego komputera</nobr>
+    <br>
 <input name="inna" size="25" maxlength="100">
 </TD>
 </TR>
-<TR height="200">
-<TD><nobr>Czy umiesz programować?</nobr>
+<TD><nobr>Ile GB pamięci RAM posiadasz?</nobr>
 <br><br>
-<input type="radio" name="pyt3" value="tak"> Tak
+<input type="radio" name="pyt4" value="tak"> 2
 <br><br>
-<input type="radio" name="pyt3" value="nie"> Nie
+<input type="radio" name="pyt4" value="tak"> 4
 <br><br>
-<input type="radio" name="pyt3" value="tak"> Nie wiem </TD>
-<TD> podaj czas &nbsp &nbsp &nbsp &nbsp<input type="time"><br>
-podaj datę &nbsp &nbsp &nbsp&nbsp &nbsp<input type="date"> <br>
-wybierz kolor &nbsp &nbsp<input type="color"> <br> </TD>
-<TD> jaka jest wilgotność <input type="range"> <br>
-Proszę czekać...&nbsp &nbsp &nbsp &nbsp <progress>Proszę czekać...</progress> </TD>
-<TD> pierwszy </TD>
+<input type="radio" name="pyt4" value="tak"> 8
+<br><br>
+<input type="radio" name="pyt4" value="tak"> 12
+<br><br>
+<input type="radio" name="pyt4" value="tak"> więcej
+<br><br>
+</TD>
+<TD>
+    <nobr>Jak oceniasz wydajność swojego komputera</nobr>
+    <br>
+<input name="inna" size="25" maxlength="100">
+</TD><TR>
+<TD width="300" >
+<nobr>Ile posiadasz dysków posiadasz?</nobr>
+<br>
+ <select>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="więcej">więcej</option>
+</select> 
+</TD><TD>
+podaj datę zakupu komputera
+<br>
+<input type="date"> <br>
 </TR>
-<TR height="400">
-<TD>dwa </TD>
-<TD> B </TD>
-<TD> drugi </TD>
-</TR>
-</TABLE>
-</form>
-</body>
-</html>
+<TR height="100">
+
+    <TD><nobr><input type="reset" value="Reset" style="height:80px; width:150px"> </TD>
+    <TD> <input type="submit" value"=Wyślij formularz" style="height:80px; width:150px"> </TD>
+    </TR>
